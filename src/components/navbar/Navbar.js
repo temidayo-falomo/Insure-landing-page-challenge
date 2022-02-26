@@ -7,7 +7,7 @@ import { RiCloseLine } from 'react-icons/ri'
 function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false)
+    const closeMobileMenu = () => setClick(false);
 
     return (
         <div className='general'>
